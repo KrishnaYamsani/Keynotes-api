@@ -66,6 +66,7 @@ app.get("/notes/:title-:content" ,function (req,res){
     getNotes();
 })
 
+
 app.listen(5000,function (){
     console.log("Server started at port 5000");
 })
